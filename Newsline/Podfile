@@ -1,0 +1,7 @@
+platform :ios, '15.0'
+
+target 'Newsline' do
+  use_frameworks!
+  
+  pod 'SwiftLint'
+end

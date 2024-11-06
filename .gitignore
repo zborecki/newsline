@@ -1,0 +1,6 @@
+# Mac OS X Finder
+.DS_Store
+
+# Misc
+.idea/
+.vscode/

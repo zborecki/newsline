@@ -1,0 +1,39 @@
+included:
+  - Newsline
+
+excluded:
+  - Pods
+
+line_length:
+  warning: 500
+  error: 750
+
+file_length:
+  warning: 500
+  error: 750
+
+disabled_rules:
+  - colon
+  - comma
+  - force_cast
+  - force_try
+
+opt_in_rules:
+  - empty_string
+
+function_body_length:
+  warning: 250
+  error: 500
+
+type_body_length:
+  warning: 500
+  error: 750
+
+large_tuple:
+  warning: 4
+  error: 5
+  
+switch_case_alignment:
+  indented_cases: true
+
+cyclomatic_complexity: 20
